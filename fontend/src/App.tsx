@@ -7,7 +7,7 @@ const App: React.FunctionComponent = () => {
   const [isHost, setHost] = useState(true)
   const [isPinned, setPinned] = useState(false)
   const [username, setUsername] = useState('')
-
+    
   return (
     <div style={styles.container}>
       <div style={styles.videoContainer}>
